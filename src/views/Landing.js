@@ -45,7 +45,7 @@ function Landing() {
                   <div className="form-group mb-0">
                     <div className="input-group">
                       <div className="input-group-prepend">
-                        <span className="input-group-text" onClick={getData} >
+                        <span className="input-group-text">
                           <MdSearch />
                         </span>
                       </div>
@@ -56,6 +56,9 @@ function Landing() {
                         type="text"
                         value={search}
                       />
+                       <div className="input-group-prepend">
+                         <button className='btn btn-primary' onClick={getData}>Search</button>
+                       </div>
                     </div>
                   </div>
                 </div>
