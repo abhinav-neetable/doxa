@@ -1,4 +1,7 @@
+Live - https://doxa-test-b31dd6.netlify.app/
+
 Getting started with the app 
+
 
 # This app fetch the data of threads from Reddit API
 
